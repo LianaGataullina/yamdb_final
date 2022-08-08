@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if "pytest" in sys.modules:
     SECRET_KEY = 'pytest'
 else:
-    SECRET_KEY='p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
+    SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
 DEBUG = False
 
@@ -97,7 +97,7 @@ STATIC_URL = '/static/'
 
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-#STATICFILES_DIRS = [(os.path.join(BASE_DIR, 'static/')),
+# STATICFILES_DIRS = [(os.path.join(BASE_DIR, 'static/')),
 #                    ('redoc', '/app/templates/')]
 
 MEDIA_URL = '/media/'
